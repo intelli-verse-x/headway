@@ -4,6 +4,7 @@
 *.mbtiles
 **/.DS_Store
 data/*
-.env
 **/node_modules/*
 .bin-env
+config.bat
+node_modules
