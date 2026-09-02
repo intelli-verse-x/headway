@@ -4,7 +4,7 @@
   "description": "Generate a pelias.json config",
   "main": "src/index.js",
   "scripts": {
-    "build": "tsc",
+    "build": "node init && tsc",
     "lint": "eslint --ext .js,.ts ./",
     "test": "jest",
     "fmt": "yarn format",

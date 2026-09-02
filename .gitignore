@@ -6,5 +6,5 @@
 data/*
 **/node_modules/*
 .bin-env
-config.bat
 node_modules
+config.bat
