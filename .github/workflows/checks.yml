@@ -60,7 +60,7 @@ jobs:
         with:
           version: "latest"
       - name: Install otel-cli
-        uses: $/.github/actions/install-otel-cli
+        uses: ./.github/actions/install-otel-cli
       - name: Copy .bin-env
         run: cp .bin-env-example .bin-env
       # bbbike intermittently times out from GitHub's runners. bin/build uses a
@@ -124,7 +124,7 @@ jobs:
         with:
           version: "latest"
       - name: Install otel-cli
-        uses: $/.github/actions/install-otel-cli
+        uses: ./.github/actions/install-otel-cli
       - name: Pick Rust cache month
         id: rust-cache
         run: echo "month=$(date -u +%Y-%m)" >> "$GITHUB_OUTPUT"

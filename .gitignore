@@ -5,7 +5,6 @@
 target/
 **/.DS_Store
 data/*
-.env
 **/node_modules/*
 .bin-env
 gtfs-secrets.json
@@ -13,3 +12,5 @@ gtfs-secrets.json
 
 # Scratch space for running services outside compose (bin/ never writes here)
 local-dev/
+config.bat
+node_modules

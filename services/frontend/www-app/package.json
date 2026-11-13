@@ -12,9 +12,9 @@
     "format": "prettier --write \"**/*.{js,ts,vue,scss,html,md,json}\" --ignore-path .gitignore",
     "test": "vitest run",
     "test:watch": "vitest",
-    "build": "quasar build",
+    "build": "node init && quasar build",
     "tsc": "vue-tsc --noEmit --skipLibCheck",
-    "dev": "quasar dev"
+    "dev": "node init && quasar dev"
   },
   "dependencies": {
     "@fragaria/address-formatter": "^6.3.0",
